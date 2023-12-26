@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "android-walking-recorder"
+version = "0.1.0"
+description = "Using cellphone motion sensors to detect and analize user walking parameters"
+authors = ["Raul Marusca-Kozak <raulrm@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Kivy = "^2.2.1"
+pandas = "^2.1.4"
+SQLite3-0611 = "^0.0.1"
+buildozer = "^1.5.0"
+plyer = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
